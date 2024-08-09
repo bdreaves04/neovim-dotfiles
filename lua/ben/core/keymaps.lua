@@ -2,9 +2,6 @@ vim.g.mapleader = " "
 
 local keymap = vim.keymap
 
--- normal mode
-keymap.set("i", "kj", "<Esc>")
-
 -- save file with ctrl-s
 keymap.set("n", "<C-s>", "<cmd>w<CR>", { noremap = true })
 keymap.set("i", "<C-s>", "<cmd>w<CR>", { noremap = true })

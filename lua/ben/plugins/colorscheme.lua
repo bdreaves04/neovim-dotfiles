@@ -14,11 +14,20 @@
 --   end,
 -- }
 
+-- return {
+-- 	"ellisonleao/gruvbox.nvim",
+-- 	priority = 1000,
+-- 	config = function()
+-- 		vim.cmd("colorscheme gruvbox")
+-- 	end,
+-- 	opts = { transparent_mode = true },
+-- }
 return {
-	"ellisonleao/gruvbox.nvim",
+	"craftzdog/solarized-osaka.nvim",
+	lazy = false,
 	priority = 1000,
+	opts = {},
 	config = function()
-		vim.cmd("colorscheme gruvbox")
+		vim.cmd("colorscheme solarized-osaka")
 	end,
-	opts = { transparent_mode = true },
 }
